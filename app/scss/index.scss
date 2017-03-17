@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #202020;
+    font-size: 50px;
+    font-family: Verdana;
+    color: #fff;
+}
+
+.content {
+    min-height: 100vh;
+    position: relative;
+}
+
+.submit-btn {
+    display: none;
+    outline: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.start {
+    .cursor {
+        top: 100%;
+        margin-top: -50px;
+    }
+
+    .list {
+        bottom: 50px;
+    }
+}
+
+*[contenteditable] {
+    color: transparent;
+    text-shadow: 0 0 0 #fff;
+    outline: none;
+}
