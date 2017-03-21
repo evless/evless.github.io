@@ -3,18 +3,22 @@
 .list {
     position: absolute;
     list-style: none;
-    width: $width;
-    left: 50%;
-    bottom: calc(50% + 50px);
-    margin-left: $width / -2;
-    padding-left: 50px;
-    max-height: calc(100vh - 50px);
-    overflow: auto;
+    width: 100%;
+    left: 0;
+    bottom: 30px;
+    padding-left: 20px;
+    max-height: 370px;
+    overflow: hidden;
 
     transition: 0.3s all;
 
     div {
         display: block;
         width: 100%;
+        padding: 3px 0;
+    }
+
+    a {
+        color: #fff;
     }
 }

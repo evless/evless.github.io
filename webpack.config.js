@@ -32,7 +32,8 @@ module.exports = {
             template: './templates/index.html',
             showErrors: true,
             chunks: ['index']
-        })
+        }),
+        new webpack.optimize.UglifyJsPlugin()
     ],
     module: {
         loaders: [

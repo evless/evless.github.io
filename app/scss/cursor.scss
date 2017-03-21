@@ -2,14 +2,14 @@
 @import './_vars.scss';
 
 .cursor {
-    width: $width;
+    width: 100%;
     position: absolute;
-    height: 50px;
-    line-height: 50px;
-    padding-left: 50px;
-    left: 50%;
-    top: 50%;
-    margin-left: $width / -2;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+    left: 0;
+    top: 100%;
+    margin-top: -30px;
 
     transition: 0.3s all;
 
@@ -20,8 +20,8 @@
 
         &:after {
             content: '  ';
-            width: 36px;
-            border-bottom: 3px solid #fff;
+            width: 10px;
+            border-bottom: 2px solid #fff;
             color: #fff;
             display: inline-block;
             margin-right: 30px;
@@ -34,8 +34,8 @@
     &:before {
         content: '>';
         position: absolute;
-        left: 10px;
+        left: 5px;
         top: 50%;
-        margin-top: -30px;
+        margin-top: -12px;
     }
 }

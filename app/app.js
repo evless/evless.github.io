@@ -9,7 +9,6 @@ import './scss/list.scss';
 import List from './js/list.js';
 import Caret from './js/caret.js';
 
-let start = false;
-let list = new List('.list', 'guest');
+let list = new List('.list');
 let caret = new Caret('.cursor', list);
 caret.init();

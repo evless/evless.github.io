@@ -5,15 +5,38 @@
 }
 
 body {
-    background: #202020;
-    font-size: 50px;
-    font-family: Verdana;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: lighter;
     color: #fff;
+    position: relative;
+    background: url('../images/bg.jpg') center center no-repeat;
+    background-size: 100% auto;
+    min-height: 100vh;
 }
 
 .content {
-    min-height: 100vh;
-    position: relative;
+    position: absolute;
+    background: #000;
+    width: 500px;
+    height: 400px;
+    left: 150px;
+    top: 100px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 25px #000;
+
+    .content__header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background: #F6F6F6;
+        color: #000;
+        line-height: 20px;
+        border-radius: 3px 3px 0 0;
+        z-index: 2;
+    }
 }
 
 .submit-btn {
@@ -21,17 +44,6 @@ body {
     outline: none;
     opacity: 0;
     visibility: hidden;
-}
-
-.start {
-    .cursor {
-        top: 100%;
-        margin-top: -50px;
-    }
-
-    .list {
-        bottom: 50px;
-    }
 }
 
 *[contenteditable] {
