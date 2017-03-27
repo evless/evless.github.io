@@ -3,6 +3,7 @@ import './scss/_anim.scss';
 import './scss/index.scss';
 import './scss/cursor.scss';
 import './scss/list.scss';
+import './scss/mobile.scss';
 
 
 // APP

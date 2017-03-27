@@ -33,7 +33,11 @@ module.exports = {
             showErrors: true,
             chunks: ['index']
         }),
-        new webpack.optimize.UglifyJsPlugin()
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false
+            }
+        })
     ],
     module: {
         loaders: [

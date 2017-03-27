@@ -1,6 +1,12 @@
 export default class List {
     constructor(classList, name) {
         this.list = document.querySelector(classList);
+
+        this.list.addEventListener('keydown', (e) => {
+            e.preventDefault();
+
+            return;
+        });
     }
 
     addCommand(text) {

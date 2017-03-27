@@ -9,8 +9,9 @@ export default class Caret {
     init() {
         this.caret.focus();
 
-        this.caret.addEventListener('keypress', (e) => {
-            if (13 === e.charCode) {
+        this.caret.addEventListener('keydown', (e) => {
+            // Enter
+            if (13 === e.keyCode) {
                 if (!this.start) {
                     this.start = true;
                     document.body.classList = 'start';
@@ -27,6 +28,10 @@ export default class Caret {
         }, false);
 
         window.addEventListener('click', (e) => {
+            if (e.target.href) {
+                window.open(e.target.href, '_blank');
+            }
+
             this.caret.innerHTML = '';
             this.caret.focus();
             e.preventDefault();
@@ -104,7 +109,6 @@ export default class Caret {
                         - Mongoose <br />
                         - Docker <br />
                         - Gitlab CI / Teamcity
-
                 `;
                 break;
             case 'дата':

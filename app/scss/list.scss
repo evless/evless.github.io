@@ -16,9 +16,14 @@
         display: block;
         width: 100%;
         padding: 3px 0;
+        position: relative;
+        z-index: 1;
     }
 
     a {
         color: #fff;
+        cursor: pointer;
+        z-index: 3;
+        position: relative;
     }
 }

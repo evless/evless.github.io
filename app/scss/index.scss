@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+a {
+    cursor: pointer;
+}
+
 body {
     font-size: 14px;
     font-family: sans-serif;
@@ -11,7 +15,7 @@ body {
     color: #fff;
     position: relative;
     background: url('../images/bg.jpg') center center no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     min-height: 100vh;
 }
 
