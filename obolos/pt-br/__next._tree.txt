@@ -1,4 +1,4 @@
-:HL["/obolos/_next/static/chunks/3me3cs1v8auas.css","style"]
+:HL["/obolos/_next/static/chunks/2qd--oz9anfrf.css","style"]
 :HL["/obolos/_next/static/media/07454f8ad8aaac57-s.p.2kjei9psvcorz.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/obolos/_next/static/media/7f11d98043fdedc9-s.p.2c8-7nzo1jf9r.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/obolos/_next/static/media/a343f882a40d2cc9-s.p.0p-wng2nn8o-p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
@@ -8,7 +8,7 @@
 :HL["/obolos/icons/obolos.svg","image"]
 :HL["/obolos/landing/app-store-badge-pt-BR.svg","image"]
 :HL["/obolos/landing/horizon-day-back.svg","image"]
-:HL["/obolos/landing/horizon-day-front.svg","image"]
 :HL["/obolos/landing/horizon-night-back.svg","image"]
+:HL["/obolos/landing/horizon-day-front.svg","image"]
 :HL["/obolos/landing/horizon-night-front.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"pt-br","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"bnlzfvHRl0SYVr_ac03mQ"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"pt-br","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"rv56EGUYLpnkRHu-R5-9G"}
