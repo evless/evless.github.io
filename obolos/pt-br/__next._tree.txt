@@ -5,10 +5,11 @@
 :HL["/obolos/_next/static/media/d3fe2f289711ac3f-s.p.2v2sz4qlut9s1.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/obolos/_next/static/media/d8cb5ab3660140cd-s.p.2demiz2t05dx4.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/obolos/_next/static/chunks/0y47nepo_mqcl.css","style"]
-:HL["/obolos/icons/obolos.svg","image"]
+:HL["/obolos/icons/obolos-light.png","image"]
+:HL["/obolos/icons/obolos-dark.png","image"]
 :HL["/obolos/landing/app-store-badge-pt-BR.svg","image"]
 :HL["/obolos/landing/horizon-day-back.svg","image"]
 :HL["/obolos/landing/horizon-night-back.svg","image"]
 :HL["/obolos/landing/horizon-day-front.svg","image"]
 :HL["/obolos/landing/horizon-night-front.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"pt-br","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"rv56EGUYLpnkRHu-R5-9G"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"pt-br","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"4r0Qe9f7pJC1CiyrUf6gZ"}
